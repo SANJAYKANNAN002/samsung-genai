@@ -1,0 +1,25 @@
+{
+  "day": 1,
+  "student_name": "Sanjay kannan",
+  "github": "SANJAYKANNAN002",
+
+  "lab2_team": "Team GenZ",
+  "lab2_model_used": "SmolLM2-360M-Instruct",
+  "lab2_gradio_url": "https://xxxx.gradio.live",
+
+  "lab": "model_face_off",
+  "p1_winner": "claude",
+  "p1_observation": "The placeholders in the answer that i got looked soo professional and is a good practice when submitting on different platforms",
+  "p2_winner": "chatgpt",
+  "p2_observation": "The tabular comparison ultimately gives a complete answer",
+  "p3_winner": "chatgpt",
+  "p3_observation": "",
+  "hallucination_found": True,
+  "hallucination_detail": "Google Gemini | displayed unsupported technical info | should have given answers like vortex",
+  "overall_winner": "chatgpt",
+  "biggest_surprise": "Tabular represrentation ",
+  "stretch_done": false,
+  "stretch_prompt": "-",
+  "stretch_observation": "-",
+  "submitted_at": "2026-07-13, 4:50"
+}
