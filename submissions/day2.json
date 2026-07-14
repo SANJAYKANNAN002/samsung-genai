@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Sanjay Kannan",
+  "github": "SANJAYKANNAN002",
+  "lab1_scenario": "C",
+  "lab1_prompt": "Act as an HR onboarding chatbot for a company's IT support team.\n\ni want you to reply to a new campus recruit's question about laptop provisioning\n\nContext: The company provides laptops to all campus recruits before or on their first day of work. The IT team sends an email with pickup or delivery instructions one week before the joining date. If there are delays, recruits should contact the IT Help Desk or HR onboarding team. The chatbot should answer based only on this information and should not invent policies.\n\nConstraints: Keep the reply under 120 words.\nClearly explain the laptop provisioning process.\nMention that instructions are sent one week before joining.\nAdvise contacting the IT Help Desk or HR if the laptop has not been received.\nDo not make promises or speculate about delivery dates beyond the provided information.\n\nTone: Professional, friendly, helpful, and concise. Avoid overly casual language.\n\nOutput format: A single chatbot response in one short paragraph, with no bullet points or headings.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "Initial stock = 4,200\nMorning shipment = 850\nRemaining stock = 4,200 − 850 = 3,350\nQuality hold = 6% of 3,350 = 201\nAvailable after hold = 3,350 − 201 = 3,149\nAfternoon restock = 1,150 (not on hold)\nFinal available for sale = 3,149 + 1,150 = 4,299 units\n\nFinal Answer: 4,299 Galaxy Buds units are available for sale by the end of the day.",
+  "lab2_cot_prompt": "Work through this problem step by step before giving the final answer. Start with an inventory of 4,200 Galaxy Buds units. First, subtract the 850 units shipped in the morning to find the remaining stock. Next, calculate 6% of the remaining stock and place those units on quality hold. Then, add the 1,150 units received during the afternoon restock, noting that these new units are not subject to the quality hold. Show each calculation clearly and conclude with the total number of units available for sale at the end of the day.",
+  "lab2_cot_output_summary": "The AI first subtracted the shipped units, then calculated and removed the 6% quality hold from the remaining inventory, and finally added the afternoon restock that was not on hold. It concluded that 4,299 Galaxy Buds units were available for sale by the end of the day.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Solve this exact  problem using a Reasoning and Action approach. Reason through each step before performing the calculation. First, identify the starting inventory, then subtract the morning shipment, calculate the 6% quality hold on the remaining stock, and finally add the afternoon restock, which is not subject to the hold. After each step, briefly explain what you did and why. Once all calculations are complete, verify the result and provide the final number of Galaxy Buds units available for sale by the end of the day.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:48:39.384Z"
+}
