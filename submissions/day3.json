@@ -15,8 +15,8 @@
   "rag_grounded_summary": "What the model said once the real document was pasted into the prompt",
   "rag_judgement": "fixed_wrong",
 
-  "stretch_done": false,
-  "stretch_notes": "",
+  "stretch_done": true,
+  "stretch_notes": "-",
 
   "tasks_completed": 6,
   "tasks_total": 6,
