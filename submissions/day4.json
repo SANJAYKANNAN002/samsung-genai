@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Sanjay Kannan",
+  "github": "SANJAYKANNAN002",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot fabricated information (a discount policy that didn't exist), which is a classic hallucination.\nThe biggest principle violated is Reliability because users should be able to trust that the system provides accurate, factual information rather than making up policies."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The assistant collected and stored sensitive employee and client data without users' knowledge or consent, violating privacy and confidentiality."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Privacy",
+      "justification": "An AI-generated fake video spread false information, misleading the public and influencing the company's stock price before the truth was established."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The system unfairly disadvantaged applicants from certain women's colleges by using proxy features, resulting in discriminatory hiring decisions despite gender not being an explicit input."
+    },
+    {
+      "id": "E",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The moderation system disproportionately removed one community's posts, leading to unfair and biased treatment without timely oversight."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Safety",
+      "justification": "AI-generated voice impersonation was used to deceive an employee into authorizing a fraudulent financial transfer."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Zillow – Zillow Offers (Zestimate AI)",
+  "stretch_failure_type": "Lack of Human Oversight",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "Brief description: Zillow relied on an AI model to predict home prices and make automated purchase offers. During the volatile housing market of 2021, the model significantly mispriced homes, leading the company to overpay for thousands of properties, lose hundreds of millions of dollars, and shut down its Zillow Offers business.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:34:16.267Z"
+}
